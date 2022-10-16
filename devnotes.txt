@@ -1,0 +1,26 @@
+TODO:
+    stop (how???)
+    Write README Documentation
+    Implement config file 
+    Delete command execution message and add option to delete bot output
+    (?) Start scrape by deleting old album and generating new, refresh
+
+
+
+method structure:
+@everyone
+    help
+    spam
+    stop
+
+mod-only
+    scrape
+    spamInterval
+    changeprefix
+
+helpers
+    retrieveAlbum
+
+
+Possible methods to add:
+    
