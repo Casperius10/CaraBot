@@ -20,7 +20,19 @@ mod-only
 
 helpers
     retrieveAlbum
+    imgurUpload
 
 
 Possible methods to add:
     
+
+
+Changelog:
+10/23/22
+    - Updated scrape() to hopefully not stop the bot's heartbeat
+
+10/16/22
+    - Changed scrape() to include helper method imgurUpload()
+    - Added function to spamInterval(): given no arguments, returns current interval
+    - Refactored to include Vars.py (temporary until I make an actual config setup)
+    - Updated scrape() to account for imgur upload limit (50 per hour)
